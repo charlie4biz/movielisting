@@ -111,12 +111,12 @@ $cakeDescription = 'Movies: Clementine Cinema';
                  <div class="row">
                      <div class="twelve columns b0">
                          <div class="header-left left">
-                             <div class="logo-wrapper" style="padding-top: 10px;">
-                                 <h1><a href="/">
-                                   <?=  $this->Html->image("logo.jpg") ?>
-                                 </a>
- </h1>
-                             </div>
+                           <div class="logo-wrapper" >
+                               <a href="/">
+                                 <?=  $this->Html->image("logo.png",['class'=>'img-responsive']) ?>
+                               </a>
+
+                           </div>
                          </div>
                          <div class="header-right right">
                              <a href="#" id="primary-nav-mobile-a" class="primary-nav-close">
@@ -227,7 +227,7 @@ $cakeDescription = 'Movies: Clementine Cinema';
                         <div class="twelve columns">
                             <div class="footer-copyright">
                                 <div class="copy-left left">
-                                    &copy; 2018 <a href="/" title="Cazare Timisoara"><strong>Clementine Hotel, Lekki</strong></a>                            </div>
+                                    &copy; 2018 <a href="/" title=""><strong>Cinema Movies</strong></a>                            </div>
                                 <div class="copy-social right">
                                     <ul class="footer-social">
                                                                            <li class="stay_connected">Stay Connected</li>
