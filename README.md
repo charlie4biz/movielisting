@@ -1,11 +1,15 @@
-# CakePHP Application Skeleton
+# Cinema Movie Listing
 
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
+A User control access to create movie listing for threates/Cinema using CakePHP Framework
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Features
+1. User Access and Management Control.
+2. Movie listing and Synopsis.
+3. Page Template and Navigations.
+
 
 ## Installation
 
