@@ -6,9 +6,9 @@
 A User control access to create movie listing for threates/Cinema using CakePHP Framework
 
 ## Features
-** User Access and Management Control **
-** Movie listing and Synopsis **
-** Page Template and Navigations **
+1. User Access and Management Control.
+2. Movie listing and Synopsis.
+3. Page Template and Navigations.
 
 
 ## Installation
