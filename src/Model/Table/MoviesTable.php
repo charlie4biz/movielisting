@@ -100,7 +100,7 @@ class MoviesTable extends Table
      */
     public function validationDefault(Validator $validator)
     {
-        $validator->provider('upload', \Josegonzalez\Upload\Validation\DefaultValidation::class);
+        $validator->setProvider('upload', \Josegonzalez\Upload\Validation\DefaultValidation::class);
 
         $validator
             ->integer('id')
@@ -122,7 +122,7 @@ class MoviesTable extends Table
             ->requirePresence('status', 'create')
             ->notEmpty('status')
             ->add('status', 'inList', [
-                'rule' => ['inList', ['Upcoming', 'Showing']],
+                'rule' => ['inList', ['upcoming', 'showing']],
                 'message' => 'Select a valid status Upcoming or Showing'
             ]);
 

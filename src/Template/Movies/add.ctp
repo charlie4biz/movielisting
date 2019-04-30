@@ -18,12 +18,14 @@
             echo $this->Form->control('photo',['type' => 'file']);
             echo $this->Form->control('title');
             echo $this->Form->control('synopsis');
+            echo $this->Form->control('cast');
             echo $this->Form->control('status');
             echo $this->Form->control('start');
             echo $this->Form->control('end');
             echo $this->Form->control('time');
             echo $this->Form->control('duration');
             echo $this->Form->control('ticket');
+            echo $this->Form->control('kids');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
